@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Иконки для разных платформ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#35d37d">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Динамическая инфографика</title>
+</head>
+<body>
+    <!-- Тень для сайта при открытии блоков -->
+    <div class="shadow"></div>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="professionalism">
+                    <div class="professionalism__title-wrap">
+                        <span class="professionalism__year">2023</span>
+                        <span class="professionalism__title">ПРОФЕССИОНАЛИТЕТ</span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/bricks.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/tent.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/parallelepiped.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/bus.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/ship.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/circle.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/mountain.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="img/header_nav_icons/leaflet.svg" alt="img"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <div class="header-title-wrap">
+                    <h2 class="header-title">МГГТК ФГБОУ ВО «АГУ»</h2>
+                    <p class="header__subtitle">Образовательный кластер «Образовательный центр индустрии туризма и сферы услуг Республики Адыгея»</p>
+                </div>
+    
+                <div class="logo-wrap">
+                    <img src="../img/logo/logo.svg" alt="logo" class="logo">
+                </div>
+
+                <div class="home">
+                    <a href="../index.html"><img src="img/home.svg" alt="go home"></a>
+                </div>
+
+                <button class="burger-btn">
+                    <img src="../img/burger.svg" alt="logo" class="burger-img">
+                    <img src="../img/burger-dark-mode.svg" alt="logo" class="burger-dark-img hide">
+                </button>
+
+                <div class="right-side-menu">
+                    <button class="burger-btn-close">Закрыть</button>
+                    <div class="right-side-menu__block">
+                        <p class="right-side-menu__text">Включить / Выключить темную тему</p>
+                        <label class="switch-button" for="switch">
+                            <div class="switch-outer">
+                            <input id="switch" type="checkbox" class="dark2">
+                            <div class="button">
+                                <span class="button-toggle"></span>
+                                <span class="button-indicator"></span>
+                            </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /header__container -->
+    </header>
+    
+    <main>
+        <section class="topic-section">
+            <div class="container">
+                <div class="topic-section__wrapper">
+                    <span class="topic-text">Тема:</span>
+                    <h1 class="topic-title">Проектирование конструкций поясных изделий женской одежды</h1>
+                    <p class="topic-subtitle">#Конструирование, моделирование и технология изготовления изделий легкой промышленности</p>
+                </div>
+                <!-- /topic-section__wrapper -->
+            </div>
+            <!-- /container -->
+        </section>
+        <!-- /topic-section -->
+
+        <section class="infographic">
+            <div class="container">
+                <div class="card-navigation-line"></div>
+                <h4 class="infographilc__title">Динамическая инфографика</h4>
+                <div class="infographic__wrapper">
+                    <div class="pop-up-container pop-up-container-card-1">
+                        <div class="close-btn-block">
+                            <button class="close-btn close-btn1"></button>
+                        </div>
+                        <div class="pop-up-window">
+                            <h5 class="pop-up__title">Конструктивное моделирование поясной одежды. Основные понятия. </h5>
+                            <div class="pop-up__content" id="dpop1">
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up-container pop-up-container-card-2">
+                        <div class="close-btn-block">
+                            <button class="close-btn close-btn2"></button>
+                        </div>
+                        <div class="pop-up-window">
+                            <h5 class="pop-up__title">Этапы конструктивного моделирования</h5>
+                            <div class="pop-up__content" id="dpop2">
+                                
+                                <p class="pop-up__text">
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up-container pop-up-container-card-3">
+                        <div class="close-btn-block">
+                            <button class="close-btn close-btn3"></button>
+                        </div>
+                        <div class="pop-up-window">
+                            <h5 class="pop-up__title">Анализ проектируемой модели (по ее эскизу или фотографии).</h5>
+                            <div class="pop-up__content" id="dpop3">
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up-container pop-up-container-card-4">
+                        <div class="close-btn-block">
+                            <button class="close-btn close-btn4"></button>
+                        </div>
+                        <div class="pop-up-window">
+                            <h5 class="pop-up__title">Выбор базовой конструкции для проектируемого изделия</h5>
+                            <div class="pop-up__content" id="dpop4">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up-container pop-up-container-card-5">
+                        <div class="close-btn-block">
+                            <button class="close-btn close-btn5"></button>
+                        </div>
+                        <div class="pop-up-window">
+                            <h5 class="pop-up__title">Формообразование одежды и принцип преобразования базовой конструкции в модельную.</h5>
+                            <div class="pop-up__content" id="dpop5">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infographilc__card" >
+                        <div class="card__img-wrap"><img src="img/infographic_imgs/card1.jpg" alt="img"></div>
+                        <h2 class="card__title"><a class="pop-up-window__btn1">Конструктивное моделирование поясной одежды. Основные понятия</a></h2>
+                        <div class="check-mark-block">
+                            <img src="img/check_mark.svg" alt="check">
+                        </div>
+                    </div>
+                    <div class="infographilc__card">
+                        <div class="card__img-wrap"><img src="img/infographic_imgs/card2.jpg" alt="img"></div>
+                        <h2 class="card__title"><a class="pop-up-window__btn2">Этапы конструктивного моделирования</a></h2>
+                        <div class="check-mark-block">
+                            <img src="img/check_mark.svg" alt="check">
+                        </div>
+                    </div>
+                    <div class="infographilc__card">
+                        <div class="card__img-wrap"><img src="img/infographic_imgs/card3.jpg" alt="img"></div>
+                        <h2 class="card__title"><a class="pop-up-window__btn3">Анализ проектируемой модели (по ее эскизу или фотографии).</a></h2>
+                        <div class="check-mark-block">
+                            <img src="img/check_mark.svg" alt="check">
+                        </div>
+                    </div>
+                    <div class="infographilc__card">
+                        <div class="card__img-wrap"><img src="img/infographic_imgs/card4.jpg" alt="img"></div>
+                        <h2 class="card__title"><a class="pop-up-window__btn4">Выбор базовой конструкции для проектируемого изделия. </a></h2>
+                        <div class="check-mark-block">
+                            <img src="img/check_mark.svg" alt="check">
+                        </div>
+                    </div>
+                    <div class="infographilc__card">
+                        <div class="card__img-wrap"><img src="img/infographic_imgs/card5.jpg" alt="img"></div>
+                        <h2 class="card__title"><a class="pop-up-window__btn5">Формообразование одежды и принцип преобразования базовой конструкции в модельную. </a></h2>
+                        <div class="check-mark-block">
+                            <img src="img/check_mark.svg" alt="check">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__left-side">
+                <h4 class="footer-title">
+                    ФГОС СПО 29.02.10 
+                </h4>
+                <p class="footer-subtitle">
+                    Конструирование, моделирование и технология изготовления изделий легкой промышленности 
+                </p>
+            </div>
+            <div class="footer__right-side">
+                <h4 class="footer-title">
+                    МДК.02.01 
+                </h4>
+                <p class="footer-subtitle">
+                    Основы конструирования и моделирования швейных изделий
+                </p>
+            </div>
+        </div>
+        <!-- /footer__wrapper -->
+    </footer>
+
+
+    <script src="../script/script.js"></script>
+    <script src="../script/burger_script.js"></script>
+    <script src="../script/dark_theme_script.js"></script>
+    <script src="script/pop-up-window_script.js"></script>
+    <script src="../script/marked.min.js"></script>
+    <script src="script/pop-up-content.js"></script>
+    <!-- Палатки -->
+    <div class="tent tent-1"></div>
+    <div class="tent tent-2"></div>
+    <div class="tent tent-3"></div>
+</body>
+</html>
